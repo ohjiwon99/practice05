@@ -2,8 +2,10 @@ package com.javaex.ex06;
 
 public class CConverter {
     
+	//필드
     public static double rate;
     
+    //생성자
     public static void setRate(double rate){
         CConverter.rate = rate;
     }

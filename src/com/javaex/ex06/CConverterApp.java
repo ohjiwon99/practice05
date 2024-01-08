@@ -1,7 +1,7 @@
 package com.javaex.ex06;
 
 
-public class CConverterApp {
+public class CConverterApp { // 까먹지 말고 풀기!!
 
     public static void main(String[] args) {
 
