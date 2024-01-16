@@ -18,5 +18,8 @@ public class CConverter {
         return dollar * rate;
     }
     
+   
+    
+    
 
 }

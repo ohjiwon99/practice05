@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class FriendApp {
 
-    private static int i;
 
 	public static void main(String[] args) {
     	
@@ -13,7 +12,6 @@ public class FriendApp {
         
         //상품만들기
         Scanner sc = new Scanner(System.in);
-       
         
        // Friend f1 = new Friend("정우성","010-1111-1111","서울초등학교");
        // Friend f2 = new Friend("이효리","010-2222-2222","제주중학교");
@@ -33,18 +31,16 @@ public class FriendApp {
              System.out.println("학교: ");
              String school=sc.nextLine();
              System.out.println("-------------------------------------------");
-            
-		} 
+             friendArray[i] = new Friend(name, hp, school);
+     		}
 
         //for문 끝
-     
-      
-		friendArray[i] = new Friend();
+  
+
         
         // 친구정보 출력
         
 		for (int i = 0; i < friendArray.length; i++) {
-
 				friendArray[i].showInfo();
 	
        }
